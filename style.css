@@ -1,0 +1,94 @@
+@font-face {
+    font-family: popin;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: popin;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+nav {
+    height: 8vh;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 15px -9px rgba(0, 0, 0, 0.272);
+}
+
+#page1 h3 {
+    /* height: fit-content; */
+    font-weight: 700;
+    background: linear-gradient(to right, #003510, #018D1E);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+#page1 h5 {
+    color: #4387f5;
+}
+
+#mid h2 {
+    font-size: 1.4rem;
+}
+
+#btns button:focus {
+    background-color: #013911;
+    color: white;
+}
+
+button {
+    border: 1px solid #7C7C7C;
+}
+
+.back button {
+    border: 1px solid #292828;
+}
+
+#blank {
+    height: 8vh;
+    width: 100%;
+}
+
+
+#footer {
+    height: 95vh;
+    background-color: #00160c;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#footer a {
+    font-size: .9rem;
+}
+
+#footer .icon img {
+    height: 2.5rem;
+}
+
+ul li {
+    font-size: 15px;
+}
+
+.back button:focus {
+    background-color: #013911;
+    color: white;
+}
+
+#back button:focus {
+    background-color: #013911;
+    color: white;
+}
